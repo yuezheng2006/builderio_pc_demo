@@ -10,6 +10,11 @@ const router = createRouter({
       component: () => import('../views/QueryTable/QueryTableView.vue'),
     },
     {
+      path: '/v0',
+      name: 'tableviewV0',
+      component: () => import('../views/TableV0/TableViewV0.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
